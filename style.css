@@ -1,0 +1,71 @@
+/* # Front-end Style Guide
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+
+### Neutral
+
+Dark gray: hsl(0, 0%, 59%)
+
+## Typography
+
+### Body Copy
+
+- Font size (name and stats): 18px */
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* body {
+    background-color: rgb(112, 23, 124);
+} */
+
+/* main {
+    border: 2px solid blue;
+    width: 800px;
+    height: 400px;
+} */
+
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+
+
+
+
+/* .stats {
+
+}
+
+.stat {
+
+} */
+
+
+
+
+.attribution {
+    border: 2px solid red;
+    /* font-size: 11px; */
+    font-size: 20px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
