@@ -30,42 +30,138 @@ Dark gray: hsl(0, 0%, 59%)
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* body {
-    background-color: rgb(112, 23, 124);
-} */
+body {
+    /* background: url(images/bg-pattern-top.svg) no-repeat fixed 500px; */
+    /* -80% 150% */
+    /* , url(images/bg-pattern-bottom.svg) no-repeat fixed bottom 50% right */
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 62.5%;
+}
 
-/* main {
-    border: 2px solid blue;
-    width: 800px;
-    height: 400px;
-} */
 
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 0 20px 30px hsla(227, 10%, 46%, 0.5);
+}
+
+
+
+
+.header-image {
+    border-radius: 13px 13px 0 0;
+}
 
 .profile-picture {
+    width: 96px;
+    height: 96px;
     border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -3.2rem;
 }
 
 
 
 
 
-/* .stats {
+.presentation {
+    /* border: 2px solid seagreen; */
+    width: 10rem;
+    text-align: center;
+    /* padding: 0.4rem 0 0 0; */
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
 
+.name {
+    color: hsl(229, 23%, 23%);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-right: 5px;
+}
+
+.age {
+    color: hsl(227, 10%, 46%);
+    font-size: 1.2rem;
+}
+
+.city {
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8rem;
+}
+
+
+
+
+
+.line-break {
+    height: 1px;
+    width: 100%;
+    background-color: hsla(0, 0%, 59%, 0.3);
+
+}
+
+.stats {
+    /* border: 2px solid rgb(141, 34, 123); */
+
+    display: flex;
+
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    /* padding: 0.6rem 0.3rem; */
+    /* line-height: 250%; */
+}
+
+.stats p {
+    /* border: 2px solid seagreen; */
+    color: hsl(227, 10%, 46%);
+    font-size: 0.8rem;
+    /* display: inline-block; */
+    width: 4rem;
+    text-align: center;
 }
 
 .stat {
-
-} */
+    color: hsl(229, 23%, 23%);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
 
 
 
 .attribution {
-    border: 2px solid red;
-    /* font-size: 11px; */
-    font-size: 20px;
+    font-size: 1rem;
+    color: hsl(229, 23%, 23%);
     text-align: center;
+    margin-top: 5%;
+}
+@media (min-width: 30em) {
+    .attribution {
+        display: flex;
+        align-items: center;
+    }
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 69%, 35%);
+    padding-left: 3px;
+}
+.attribution img {
+    padding-right: 5px;
 }
