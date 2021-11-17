@@ -119,7 +119,7 @@ main {
     font-size: 1rem;
     color: hsl(229, 23%, 23%);
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 @media (min-width: 30em) {
     .attribution {
