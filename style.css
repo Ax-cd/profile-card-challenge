@@ -1,11 +1,3 @@
-/* # Front-end Style Guide
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px */
-
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 * {
@@ -13,9 +5,7 @@ The designs were created to the following widths:
 }
 
 body {
-    background: url(images/bg-pattern-top.svg) no-repeat fixed -50rem -37rem, url(images/bg-pattern-bottom.svg) no-repeat fixed 10rem 12rem;
-    /* -17rem -30rem */
-    /* -60% 300% */
+    background: url(images/bg-pattern-top.svg) no-repeat scroll -50rem -37rem, url(images/bg-pattern-bottom.svg) no-repeat scroll 10rem 12rem;
     background-color: hsl(185, 75%, 39%);
     display: flex;
     flex-direction: column;
@@ -65,10 +55,8 @@ main {
 
 
 .presentation {
-    /* border: 2px solid seagreen; */
     width: 10rem;
     text-align: center;
-    /* padding: 0.4rem 0 0 0; */
     line-height: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 0;
@@ -103,24 +91,17 @@ main {
 }
 
 .stats {
-    /* border: 2px solid rgb(141, 34, 123); */
-
     display: flex;
-
     width: 90%;
     justify-content: space-around;
     align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
-    /* padding: 0.6rem 0.3rem; */
-    /* line-height: 250%; */
 }
 
 .stats p {
-    /* border: 2px solid seagreen; */
     color: hsl(227, 10%, 46%);
     font-size: 0.8rem;
-    /* display: inline-block; */
     width: 4rem;
     text-align: center;
 }
